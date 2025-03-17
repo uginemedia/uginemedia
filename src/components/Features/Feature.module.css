@@ -1,0 +1,203 @@
+.feature_information > h2 {
+  font-size: 2.9em;
+  color: var(--white-color);
+  margin-bottom: 50px;
+}
+
+.feature_01 {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+}
+
+.feature_01 > img {
+  width: 63%;
+  object-fit: cover;
+}
+
+.feature_01 > div {
+  color: var(--white-color);
+  padding: 0 2em;
+  background: var(--tertiary-color);
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature_01 > div > span {
+  display: block;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  opacity: 0.8;
+}
+
+.feature_01 > div > h4 {
+  font-size: 2.5em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+
+.feature_01 > div > p {
+  line-height: 2em;
+  opacity: 0.8;
+  margin-bottom: 100px;
+}
+
+.feature_01 > div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.4em;
+  cursor: pointer;
+}
+
+.feature_01 > div > a {
+  color: #3b88c3;
+}
+
+.feature_01 > div > a > span {
+  color: var(--white-color);
+  transition: color 0.5s ease;
+}
+
+.feature_01 > div > a:hover > span {
+  color: var(--primary-color);
+}
+
+.features {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.features > div {
+  max-width: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.features > div > img {
+  min-height: 20px;
+}
+
+.features > div > div {
+  padding: 2em;
+  background: var(--tertiary-color);
+  color: var(--white-color);
+}
+
+.features > div > div > span {
+  display: block;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.features > div > div > a {
+  font-size: 2.5em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--white-color);
+  font-weight: 500;
+  transition: color 0.5s ease;
+}
+
+.features > div > div > a:hover {
+  color: var(--primary-color);
+}
+
+.feature_information > a {
+  display: block;
+  text-decoration: none;
+  color: var(--white-color);
+  background: var(--primary-color);
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+/* Media Queries @1024px */
+@media (max-width: 1024px) {
+  /* Feature_01 */
+  .feature_01 {
+    height: 400px;
+  }
+
+  .feature_01 > img {
+    width: 50%;
+  }
+
+  .feature_01 > div {
+    width: 50%;
+    min-height: 100%;
+    padding: 0 1em;
+  }
+
+  .feature_01 > div > span {
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .feature_01 > div > h4 {
+    margin-bottom: 10px;
+    font-size: 1.9em;
+  }
+
+  .feature_01 > div > p {
+    margin-bottom: 40px;
+  }
+
+  /* Features Div */
+  .features {
+    justify-content: center;
+  }
+
+  .features > div {
+    max-width: 47%;
+  }
+
+  .features > div > div > a {
+    font-size: 2em;
+  }
+}
+
+/* Media Queries @767px */
+@media (max-width: 767px) {
+  .feature_01 {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .feature_01 > img {
+    width: 100%;
+  }
+
+  .feature_01 > div {
+    width: 100%;
+  }
+
+  .feature_01 > div {
+    padding: 1.7em;
+  }
+
+  .features > div {
+    max-width: 100%;
+  }
+
+  /* Feature a */
+  .features > div > div > a {
+    font-size: 1.9em;
+  }
+}

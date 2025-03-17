@@ -1,0 +1,247 @@
+.main_home {
+  position: relative;
+  background: url("../src/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  min-height: 110vh;
+}
+
+.main_home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Header Section Design */
+.header {
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo_div > button {
+  background: transparent;
+  border: none;
+  color: var(--white-color);
+  font-size: 2em;
+  width: 50px;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #894e43;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.header_logo img {
+  width: 65px;
+}
+
+.header_logo h1 {
+  position: relative;
+  top: -2px;
+  font-size: 2em;
+}
+
+.header_link li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+.header_link li a {
+  text-decoration: none;
+  color: var(--white-color);
+  opacity: 0.7;
+  transition: opacity 0.5s ease;
+}
+
+.header_link li a:hover {
+  opacity: 1;
+}
+
+.header_anchor {
+  padding: 13px 25px;
+  border: 1px solid var(--white-color);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 0.5s ease;
+}
+
+.header_anchor:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+/* Hero Section Design */
+.hero_section {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 40px;
+}
+
+.hero_section > h1 {
+  font-size: 3.5em;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hero_section > h1 span {
+  color: var(--primary-color);
+}
+
+.hero_section .hero_description {
+  font-size: 1.1em;
+  margin-bottom: 80px;
+}
+
+.hero_section_buttons {
+  margin-bottom: 120px;
+}
+
+.hero_section_buttons > a {
+  padding: 13px 25px;
+  border: 1px solid var(--white-color);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 0.5s ease;
+}
+
+.hero_section_buttons > a:first-child {
+  border-color: transparent;
+  background: var(--primary-color);
+  margin-right: 10px;
+}
+
+.hero_section_buttons > a:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+.brand_p {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero_section_brands {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6em;
+}
+
+.hero_section_brands > img {
+  filter: invert(100%);
+  opacity: 0.9;
+}
+
+/* Media Queries @900px */
+@media (max-width: 900px) {
+  /* Header Section Media Query */
+  .header_logo_div {
+    flex: 1;
+  }
+
+  .header_logo_div > button {
+    display: flex;
+  }
+
+  .header_link {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+    background: var(--nav-bg);
+    transition: all 0.5s ease;
+  }
+
+  .header_link li {
+    display: block;
+    margin: 20px 0;
+    border-bottom: 1px solid var(--white-color);
+    padding: 5px 0;
+  }
+
+  .header_anchor {
+    display: none;
+  }
+
+  .header_link.open_nav {
+    overflow: visible;
+    padding: 20px;
+    height: auto;
+  }
+
+  /* Hero Section Media Query */
+  .hero_section > h1 {
+    font-size: 2.5em;
+  }
+
+  .hero_section_brands {
+    gap: 3em;
+  }
+
+  .hero_section_brands > img {
+    width: 50px;
+  }
+}
+
+/* Media Queries @767px */
+@media (max-width: 767px) {
+  .hero_section_buttons > a {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .hero_section_buttons > a:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero_section_brands {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 667px) {
+  .hero_section > h1 {
+    font-size: 2.1em;
+  }
+}
