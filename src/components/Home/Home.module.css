@@ -1,6 +1,6 @@
 .main_home {
   position: relative;
-  background: url("../src/assets/bg.jpg");
+  background: url("../../assets/bg.jpg");
   background-size: cover;
   background-position: center;
   z-index: 1;
