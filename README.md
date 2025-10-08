@@ -25,7 +25,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
   <img width="12" />
   <img width="12" />
-  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg](https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/reactnative/reactnative-original.svg)" height="30" alt="csharp logo"  />
+  <img src="https://github.com/devicons/devicon/blob/v2.17.0/icons/nodejs/nodejs-original.svg" height="30" alt="node js logo"  />
 </div>
 
 ###
