@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is U-GINE MEDIA and I'm a FullStack Developer | MERN Stack Developer | Backend Developer | Node JS | MongoDB | Rest API | Web3 | Frontend Developer | React JS | CSS | TailwindCSS</h2>
+<h2 align="left">Hi 👋! I'm U-GINE MEDIA and I'm a FullStack Developer: MERN Stack Developer | Backend Developer | Node JS | MongoDB | Rest API | Web3 | Frontend Developer | React JS | CSS | TailwindCSS</h2>
 
 ###
 
@@ -24,9 +24,8 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg](https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/reactnative/reactnative-original.svg)" height="30" alt="csharp logo"  />
 </div>
 
 ###
@@ -43,13 +42,5 @@
 ###
 
 <br clear="both">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://gitlab.com/[uginemedia]/[uginemedia]/-/raw/main/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://gitlab.com/[uginemedia]/[uginemedia]/-/raw/main/output/pacman-contribution-graph-light.svg">
-  <img alt="pacman contribution graph" src="https://gitlab.com/[uginemedia]/[uginemedia]/-/raw/main/output/pacman-contribution-graph-light.svg">
-</picture>
-
-_generated with [abozanona/pacman-contribution-graph](https://abozanona.github.io/pacman-contribution-graph/)_
 
 ###
